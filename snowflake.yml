@@ -1,0 +1,16 @@
+definition_version: 2
+entities:
+  timesheet_nacional:
+    type: streamlit
+    identifier:
+      name: TIMESHEET_NACIONAL
+      schema: STREAMLIT
+      database: BI_DEV
+    stage: STREAMLIT
+    query_warehouse: BI_WH_STREAMLIT
+    main_file: main_nacional.py
+    artifacts:
+      - main_nacional.py
+      - environment.yml
+      - visoes/
+      - pages/
